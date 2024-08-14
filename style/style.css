@@ -72,7 +72,7 @@
     height: 1393px;
     /* margin: 74px 150px 90px 150px ; */
     padding: 80px 97px;
-    /* background-color: salmon; */
+    background-color: rgba(13, 19, 33, 0.02) ;
     text-align: center;
     margin: 74px auto 90px; 
   }
@@ -214,7 +214,9 @@
     width: 1140px;
     height: 313px;
     border-radius: 16px;
-    /* display: flex; */
+    /* display: flex;  */
+    /* text-align: center; */
+
     
     margin: 0 auto;
 
@@ -226,11 +228,29 @@
     margin-top: 64px;
  }
  .last-para{
+    height: 52px;
+    text-align: center;
+    margin: 0 auto;
     color: #FFFFFF;
     font-weight: 400;
     font-size: 16px;
  }
  .last-content{
+    display: flex;
     text-align: center;
     margin: 64px 0px 64px;
+ }
+ 
+ .white-last{
+    height: 104px;
+    text-align: center;
+    margin: 64px auto 24px;
+ }
+ .textarea{
+    width: 548px;
+    height: 57px;
+ }
+ .submit{
+    width: 120px;
+    height: 57px;
  }
