@@ -13,14 +13,17 @@
     font-weight: 800; 
     font-size: 48px; 
     color: #0D1321; 
-    margin-top: 32px;
-    margin-bottom: 24px;
+    text-align: center;
+    margin: 32px 0 24px;
   }
   .banner-para{
+    width: 852px;
+    height: 52px;
     font-weight: 400;
     font-size: 16px; 
     color: #0D1321; 
-    margin-bottom: 32px; 
+    text-align: center;
+    margin:24px auto 32px; 
   }
   .banner-btn{
     margin: 0 10px;
@@ -61,4 +64,173 @@
     height: 581px;
     text-align: center;
     margin: 0 auto;
+
   }
+  /* section */
+  .big-sec{ 
+    width: 1140px;
+    height: 1393px;
+    /* margin: 74px 150px 90px 150px ; */
+    padding: 80px 97px;
+    /* background-color: salmon; */
+    text-align: center;
+    margin: 74px auto 90px; 
+  }
+   .small-sec{ 
+    width: 946px;
+    height: 1233px;
+    padding: 0;
+    text-align: center;
+    margin: 0 auto;
+    /* background-color: aqua; */
+  }
+  .sec-title{
+    font-weight: 800;
+    font-size: 32px;
+    color: #0D1321;
+    margin-bottom: 24px;
+  }
+ .sec-para{
+    font-weight: 400;
+    font-size: 16px;
+    color: #0D1321;
+    margin-bottom: 48px;
+ }
+ /* shared style */
+ .sec-head{
+    font-weight: 700;
+    font-size: 24px;
+    color: #0D1321;
+ }
+ .sec-btn{
+    font-weight: 600;
+    font-size: 20;
+    color: #0D1321;
+    padding: 12px 20px;
+    width: 171px;
+    height: 47px;
+ }
+ /* boys */
+ .yellow{
+    width: 274px;
+    height: 240px;
+ }
+ .red-2{
+    width: 240px;
+    height: 240px;
+ }
+ .mid{
+    margin-right: 32px;
+ }
+ .title-para-2{
+    width: 852px; 
+    height: 113px; 
+    text-align: center;
+    margin: 0 auto 48px;
+ }
+ .description-pic{
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    margin-bottom: 32px;
+ }
+ .yellow-div{
+    width: 447px;
+    height: 219px;
+    margin-right: 98px;
+ }
+ .title-para-sec{
+    width: 946px;
+    height: 161px;
+ }
+ .yellow-div{
+    width: 477px;
+    height: 240ox;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    /* justify-content: flex-start;  */
+ }
+ /* inspiration */
+ .inspiration{
+    width: 1140px;
+    height: 775px;
+    justify-content: center;
+    margin: 0 auto 151px;
+    padding: 0;
+ }
+ .youtube-video{
+    
+    text-align: center;
+    margin: 0 auto;
+ }
+ /* target */
+ .target{
+    width: 1140px;
+    height: 460px;
+    margin: 0 auto 48px;
+ }
+ .target-head{
+    color: #0D1321;
+    font-weight: 800;
+    font-size: 24px;
+ }
+ .target-para{
+    font-weight: 400;
+    font-size: 16px;
+    color: #0D1321;
+ }
+ .target-link{
+    font-weight: 700;
+    font-size: 16px;
+    color: #0D1321;
+ }
+ .common-child{
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    margin-right: 24px;
+    
+ }
+ .third-child{
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    /* background-color: rgb(96, 121, 136);  */
+
+ }
+ .complex{
+    display: flex;
+    width: 1140px;
+    height: 299px;
+ }
+ /* 2nd background image */
+ .last-img{
+    background-image: url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1140px;
+    height: 313px;
+    border-radius: 16px;
+    /* display: flex; */
+    
+    margin: 0 auto;
+
+ }
+ .white-head{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 32px;
+    margin-top: 64px;
+ }
+ .last-para{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+ }
+ .last-content{
+    text-align: center;
+    margin: 64px 0px 64px;
+ }
