@@ -336,12 +336,14 @@
   }
   .ending{
    width: 1140px;
-   height: 36px;
+   /* height: 36px; */
    background-color: #FFFFFF;
    display: flex;
    flex-direction: row;
    justify-content: space-between;
    align-items: center;
+   padding: 0;
+   margin: 32px 0px;
   }
 .footer{
    width: 1440px;
