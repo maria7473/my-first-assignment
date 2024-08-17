@@ -141,7 +141,6 @@
     justify-content: space-between;
     padding: 48px;
     background-color: #FFFFFF;
-
     margin-bottom: 32px;
  }
  .yellow-div{
@@ -162,8 +161,7 @@
     text-align: start;
     background-color: #FFFFFF;
     /* justify-content: flex-start;  */
-
- }
+   }
  .first-boy{
     width: 373px;
     height: 240px;
@@ -255,7 +253,6 @@
  }
  .complex{
     display: flex;
-    /* justify-content: flex-start;  */
     width: 1140px;
     height: 299px;
     margin: 48px auto;
@@ -312,6 +309,10 @@
    font-weight: 600;
    font-size: 20px;
  }
+ .form{
+   align-items: center;
+   justify-content: center;
+ }
  .form-btn{
    /* width: 684px;  */
    /* height: 57px; */
@@ -335,7 +336,8 @@
    height: 36px;
   }
   .ending{
-   width: 1140px;
+   /* width: 1140px; */
+   max-width: 100%;
    /* height: 36px; */
    background-color: #FFFFFF;
    display: flex;
@@ -345,15 +347,9 @@
    padding: 0;
    margin: 32px 0px;
   }
-.footer{
-   width: 1440px;
-   height: 100px;
-   padding: 32px 150px 32px 150px;
+footer{
+   padding: 32px 150px;
    background-color:#B3B3FF ;
-   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
 }
 
  
